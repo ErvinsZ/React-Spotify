@@ -17,7 +17,7 @@ componentDidMount(){
 		"x-rapidapi-key": "60a14be2e2mshc09f8e2d55f2a80p1322bdjsnad6771061050"
 	}
 }).then((response) => response.json())
-.then((responseObject) => this.setState({ harryPotter: responseObject.Queen})
+.then((responseObject) => this.setState({ Queen: responseObject})
 ).then(() => this.setState({ loading: false }))
 .catch((err) => {
   this.setState({ error: true });
