@@ -131,7 +131,7 @@ color:grey;
 
 footer{
 background-color: rgb(37, 37, 37);
-position:sticky;
+position:fixed;
 height:8vh;
 left: 0;
 bottom: 0;

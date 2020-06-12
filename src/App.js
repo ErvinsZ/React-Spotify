@@ -1,10 +1,10 @@
 import React from 'react';
-import SideBar from './components/SideBar'
+import Artist from './components/Artist'
 import './App.css';
 
 function App() {
   return (
-    <SideBar/>
+    <Artist/>
   );
 }
 
