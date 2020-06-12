@@ -26,8 +26,8 @@ class SideBar extends React.Component{
                 </li>
             </ul>
 
-            <div className="footerSB"> <a href="#" class="p-3"><i class="fa fa-download pr-2" aria-hidden="true"></i>Install App</a>
-              <br></br> <h6 class=" border-top ml-2"> <img src={"https://tshirt-factory.com/images/detailed/34/Cool-santa-T-shirt-design-34491.jpg"}  alt={""} className="mt-1 mr-1" style={{objectfit: "cover", width: "30px", borderradius:"40%"}}></img>Santa Claus</h6>
+            <div className="footerSB"> <a href="#" className="p-3"><i className="fa fa-download pr-2" aria-hidden="true"></i>Install App</a>
+              <br></br> <h6 className=" border-top ml-2"> <img src={"https://tshirt-factory.com/images/detailed/34/Cool-santa-T-shirt-design-34491.jpg"}  alt={""} className="mt-1 mr-1" style={{objectfit: "cover", width: "30px", borderradius:"40%"}}></img>Santa Claus</h6>
           </div>
 
                     </nav>
